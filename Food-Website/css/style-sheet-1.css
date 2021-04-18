@@ -166,6 +166,10 @@ header.hero{
     background-position: 0% 0%;
     background-repeat: no-repeat;
     overflow: hidden;
+    
+}
+header.hero .container{
+    position: relative;
 }
 
 header.hero .welcome {
@@ -178,7 +182,7 @@ header.hero h1{
     color: var(--secondary);
     letter-spacing: 0.07rem;
     font-size: 2.5rem;
-    margin-bottom: 0.30rem;
+    margin-bottom: 0.75rem;
 }
 header.hero h1 span{
     color: var(--primary);
@@ -190,8 +194,17 @@ header.hero p{
     margin-bottom: 1rem;
 }
 
-header.hero .button:first-child{
+header.hero button:first-child{
     margin-right: 0.5rem;
+}
+
+header.hero .welcome{
+    margin-bottom: 0.25rem;
+}
+header.hero .hero-image{
+    position: absolute;
+    top: -40px;
+    right: 40px
 }
 
 
