@@ -16,6 +16,10 @@
     font-family: "railway-black";
     src: url(../fonts/Raleway-Black.ttf);
 }
+@font-face {
+    font-family: "railway-medium";
+    src: url(../fonts/Raleway-Medium.ttf);
+}
 
 /* variable for the colours in the website */
 
@@ -95,7 +99,7 @@ header.topbar .auth >div img{
 
 /* section:-2 This is for the navigation bar */
 
-nav.top .contact h5{
+nav.top .container h5{
     font-family: "railway-black";
     margin-bottom: 0.25rem;
 }
