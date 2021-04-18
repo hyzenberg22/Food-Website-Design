@@ -66,7 +66,7 @@
     box-sizing: border-box;
 }
 body{
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiAsed;
 }
 
 /* Section:-1 This is for the topbar */
@@ -99,17 +99,59 @@ header.topbar .auth >div img{
 
 /* section:-2 This is for the navigation bar */
 
-nav.top .container h5{
-    font-family: "railway-black";
-    margin-bottom: 0.25rem;
+nav .top{
+    padding: 1rem 0;
 }
 
+nav .top .contact h5, nav .top .time h5{
+    font-family: "railway-black";
+    margin-bottom: 0.25rem;
 
+}
 
+nav .top .contact h6, nav .top .time h6{
+    font-family: "railway-medium";
+    letter-spacing: 0.05rem;
+    font-size: 0.75rem;
+    color: var(--ternary);
 
+}
 
+nav .top .contact img, nav .top .time img{
+    margin-right: 0.75rem;
+}
 
+/* This is for the navbar Home and the other extra */
 
+nav .navbar a{
+    text-decoration: none;
+    color: (var(--ternary));
+    font-family: "railway-bold";
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+nav .navbar a.active{
+    background: var(--primary);
+    color: var(--pure);
+}
+nav .navbar a:hover{
+    background: var(--primary);
+    color:var(--pure)
+}
+.magic-shadow:after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 70px;
+    background-image: url(../icons/shadow.svg);
+    bottom: -21px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
 
 
 
@@ -137,7 +179,17 @@ nav.top .container h5{
 .justify-between{
     justify-content: space-between;
 }
+.justify-center{
+    justify-content: center;
+}
 
 .items-center{
     align-items: center;
 }
+
+.magic-shadow{
+    position: relative;
+    background: var(--heaven);
+}
+
+
