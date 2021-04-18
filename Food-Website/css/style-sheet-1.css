@@ -1,0 +1,139 @@
+/* These are the Fonts used in the website */
+
+@font-face {
+    font-family: "railway-regular";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: "railway-bold";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: "railway-semibold";
+    src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+    font-family: "railway-black";
+    src: url(../fonts/Raleway-Black.ttf);
+}
+
+/* variable for the colours in the website */
+
+:root{
+    --primary:#EEBF00;
+    --secondsry:#232B38;
+    --ternary:#6C6C6C;
+    --danger:#FE4545;
+    --pure:#FEFEFE;
+    --ligth:#F0F0F0;
+    --heaven:#FFFFFF;
+    --footer:#2D333F;
+}
+
+/* This is the Media Quaries for the differnt screen sizes */
+
+@media (min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media (min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px){
+    .container{
+        max-width: 1152px;
+    }
+}
+/* Reset the browser default settings */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Section:-1 This is for the topbar */
+
+header.topbar{
+    background: var(--secondsry);
+    color: var(--pure);
+    font-family: "railway-semibold";
+    padding: 0.75rem 0;
+}
+
+header.topbar .auth >div a{
+    color: var(--pure);
+    text-decoration: none;
+}
+
+header.topbar .icons a{
+    margin-right: 0.6rem;
+}
+
+header.topbar .auth .divider{
+    padding: 0 1rem;
+}
+
+header.topbar .auth >div img{
+    margin-right: 0.35rem;
+}
+
+
+
+/* section:-2 This is for the navigation bar */
+
+nav.top .contact h5{
+    font-family: "railway-black";
+    margin-bottom: 0.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Utility Class for the Website */
+
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.items-center{
+    align-items: center;
+}
