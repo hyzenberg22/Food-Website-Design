@@ -279,14 +279,20 @@ section.top-product .food-slider .food-cart button{
     cursor: pointer;
     transition: all .3s ease;
 }
-
-.food-slider .food-cart button img{
+section.top-product .food-slider .food-cart button:hover{
     background: var(--primary);
-    padding: 0.5rem;
-    height: 32px;
-    margin-right: 1.2rem;
+    color: var(--heaven);
 }
-
+/* This is for the custom Slider Button */
+.top-product .slider-btn{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: var(--primary);
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
 
 
 /* psudo class for the section tag */
@@ -302,11 +308,22 @@ section.top-product .food-slider .food-cart button{
     bottom: -40px;
 }
 
-section.top-product .food-slider .food-cart button:hover{
+.food-slider .food-cart button img{
     background: var(--primary);
-    color: var(--heaven);
+    padding: 0.5rem;
+    height: 32px;
+    margin-right: 1.2rem;
 }
 
+
+/* overighting the default settings of the  slick slider */
+.slick-slide{
+    margin: 0 27px;
+
+}
+.slick-list{
+    margin: 0 -27px;
+}
 
 
 
