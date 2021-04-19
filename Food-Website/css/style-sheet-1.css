@@ -34,7 +34,7 @@
     --ternary:#6C6C6C;
     --danger:#FE4545;
     --pure:#FEFEFE;
-    --ligth:#F0F0F0;
+    --light:#F0F0F0;
     --heaven:#FFFFFF;
     --footer:#2D333F;
 }
@@ -72,6 +72,7 @@
 }
 body{
     -webkit-font-smoothing: antialiAsed;
+    height: 4000px;
 }
 
 /* Section:-1 This is for the topbar */
@@ -220,8 +221,91 @@ header.hero .hero-image{
     border: 1px solid var(--secondary); 
 }
 
+/* Section 4:- This is the starting of the Top-products */
+
+section{
+    padding: 4rem 0;
+}
+section.top-product{
+    background: var(--light);
+}
+
+section.top-product .food-slider .food-cart{
+    background: var(--heaven);
+    padding: 1.5rem 0;
+    border-radius: 4px;
+
+}
+section.top-product .food-slider .food-cart .product-image img{
+    width: 80%;
+    height: 200px;
+    padding-bottom: 1rem;
+    object-fit: contain;
+}
+hr{
+    border: 1px solid var(--light);
+    opacity: 0.8 ;
+    margin: 1rem 0;
+
+}
+
+section.top-product .food-slider .food-cart h2{
+    font-family: "railway-bold";
+    font-size: 1.3rem;
+    margin-bottom: 0.25rem;
+
+}
+section.top-product .food-slider .food-cart .stars img{
+    margin-right: 0.25rem;
+}
+section.top-product .food-slider .food-cart .stars{
+    margin-bottom: 0.5rem;
+}
+section.top-product .food-slider .food-cart .price{
+    font-family: "railway-medium";
+    color: var(--danger);
+    margin-bottom: 1rem;
+}
+section.top-product .food-slider .food-cart button{
+    font-family: "railway-medium";
+    color: var(--secondary);
+    background: var(--heaven);
+    border: 2px solid var(--primary);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.food-slider .food-cart button img{
+    background: var(--primary);
+    padding: 0.5rem;
+    height: 32px;
+    margin-right: 1.2rem;
+}
 
 
+
+/* psudo class for the section tag */
+.section-heading:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-image: url(../icons/hr.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: -40px;
+}
+
+section.top-product .food-slider .food-cart button:hover{
+    background: var(--primary);
+    color: var(--heaven);
+}
 
 
 
@@ -274,4 +358,19 @@ header.hero .hero-image{
 .btn-secondary{
     background: var(--secondary);
     color: var(--heaven);
+}
+
+
+/* This utili- calss are for the section */
+
+.section-heading{
+    font-family: "railway-bold";
+    text-align: center;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+
+.text-center{
+    text-align: center;
 }

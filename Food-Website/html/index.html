@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Food Store</title>
     <link rel="stylesheet" href="../css/style-sheet-1.css">
+    <!-- This is for the slick slyder -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 <body>
     <header class="topbar">
@@ -93,5 +95,50 @@
         </div>
     </header>
 
+    <!-- starting of the top-products cards and the Buttons Sections  -->
+    <section class="top-product">
+        <div class="container">
+            <h1 class="section-heading">Top products</h1>
+            <div class="slider">
+                <div class="food-slider">
+                    <div class="food-cart">
+                        <div class="product-image flex items-center justify-center">
+                            <img src="../images/plate-1.png" alt="plate-1">
+                        </div>
+                        <hr>
+                        <div class="dish-name">
+                            <h2 class="text-center">Summer Salad</h2>
+                            <div class="stars flex justify-center items-center">
+                                <img src="../icons/start-filled.svg" alt="stars-filled">
+                                <img src="../icons/start-filled.svg" alt="stars-filled">
+                                <img src="../icons/start-filled.svg" alt="stars-filled">
+                                <img src="../icons/star-grey.svg" alt="stars-filled">
+                                <img src="../icons/star-grey.svg" alt="stars-filled">
+                            </div>
+                            <div class="price text-center">
+                                <span>$ 1.25</span>
+                            </div>
+                            <div class="dish-button flex justify-center">
+                                <button>
+                                    <img src="../icons/cart-2.svg" alt="Cart 2">
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- This is the slick slider for the website and Js query -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- link the Js to the Html -->
+    <script src="../js/app.js"></script>
+    
+				
 </body>
 </html>
