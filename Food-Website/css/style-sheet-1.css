@@ -373,6 +373,8 @@ section.about-meal button{
 
 section.our-services{
     background: var(--light);
+    position: relative;
+    z-index: 0;
 }
 
 section.our-services .service-card{
@@ -398,6 +400,9 @@ section.our-services .service-card p{
     line-height: 1.6rem;
     margin-bottom: 1rem;
 }
+section.our-services .card-wrapper{
+    margin-top: 2rem;
+}
 
 /* Utility Class for the Website */
 
@@ -405,6 +410,9 @@ section.our-services .service-card p{
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
+}
+.text-primary{
+    color: var(--primary);
 }
 
 .flex{
@@ -454,6 +462,8 @@ section.our-services .service-card p{
     bottom: -23px;
     background-repeat: no-repeat;
     background-position: center;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: -1;
 }
 
