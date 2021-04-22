@@ -73,6 +73,7 @@
 body{
     -webkit-font-smoothing: antialiAsed;
     height: 4000px;
+    font-family: "railway-regular";
 }
 
 /* Section:-1 This is for the topbar */
@@ -337,7 +338,66 @@ section.top-product .food-slider .food-cart button:hover{
 }
 
 
+/* Section:-5 About section for the website  */
 
+
+section.about-meal h2{
+    font-family: "railway-bold";
+    font-size: 1.4rem;
+    color: var(--secondary);
+    margin-bottom: 2rem;
+    line-height: 1.3;
+}
+
+section.about-meal .para{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+
+section.about-meal .para p{
+    line-height: 1.7rem;
+
+}
+
+section.about-meal .about-meal-wrapper img{
+    height: 350px;
+}
+
+section.about-meal button{
+    margin-top: 1.5rem;
+}
+
+
+/* Section-6 Starting of the Our services */
+
+section.our-services{
+    background: var(--light);
+}
+
+section.our-services .service-card{
+    background: var(--heaven);
+    padding: 2rem;
+    padding-top: 4rem;
+    margin: 2rem;
+    border-radius: 6px;
+    position: relative;
+}
+section.our-services .service-card .icon{
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+section.our-services .service-card h2{
+    font-family: "railway-bold";
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+section.our-services .service-card p{
+    line-height: 1.6rem;
+    margin-bottom: 1rem;
+}
 
 /* Utility Class for the Website */
 
@@ -350,7 +410,9 @@ section.top-product .food-slider .food-cart button:hover{
 .flex{
     display: flex;
 }
-
+.felx-1{
+    flex:1;
+}
 .justify-between{
     justify-content: space-between;
 }
@@ -425,7 +487,7 @@ section.top-product .food-slider .food-cart button:hover{
     font-family: "railway-bold";
     text-align: center;
     position: relative;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 }
 
 
