@@ -146,18 +146,7 @@ nav .navbar a:hover{
     background: var(--primary);
     color:var(--pure)
 }
-.magic-shadow:after{
-    content: '';
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 70px;
-    background-image: url(../icons/shadow.svg);
-    bottom: -21px;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: -1;
-}
+
 
 /* Section-3 This is the hero section */
 
@@ -312,6 +301,10 @@ section.top-product .food-slider .food-cart button:hover{
     position: relative;
 }
 
+.top-product .btn-wrapper{
+    margin-top: 2rem;
+}
+
 
 /* psudo class for the section tag */
 .section-heading:after{
@@ -373,6 +366,36 @@ section.top-product .food-slider .food-cart button:hover{
     position: relative;
     background: var(--heaven);
 }
+.magic-shadow:after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 70px;
+    background-image: url(../icons/shadow.svg);
+    bottom: -21px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+.magic-shadow-sm{
+    position: relative;
+    background: var(--heaven);
+}
+.magic-shadow-sm:after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 70px;
+    background-image: url(../icons/shadow-sm.svg);
+    bottom: -23px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+
+
 
 /* this is for the button utility class */
 .btn{
@@ -408,4 +431,7 @@ section.top-product .food-slider .food-cart button:hover{
 
 .text-center{
     text-align: center;
+}
+.slick-track{
+    padding: 1rem 0;
 }
