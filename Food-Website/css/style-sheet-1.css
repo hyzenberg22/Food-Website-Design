@@ -221,7 +221,7 @@ header.hero .hero-image{
     border: 1px solid var(--secondary); 
 }
 
-/* Section 4:- This is the starting of the Top-products */
+/* Section 4:- This is the starting of the Top-products and the section tag*/
 
 section{
     padding: 4rem 0;
@@ -292,6 +292,24 @@ section.top-product .food-slider .food-cart button:hover{
     border-radius: 4px;
     cursor: pointer;
     outline: none;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.prev-btn{
+    position: absolute;
+    top: 46%;
+    left:-1rem;
+    z-index: 1;
+}
+.next-btn{
+    position: absolute;
+    top: 46%;
+    right:-1rem;
+    z-index: 1;
+}
+.top-product .slider{
+    position: relative;
 }
 
 
