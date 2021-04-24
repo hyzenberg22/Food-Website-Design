@@ -495,6 +495,108 @@ section.big-deal .timer div span:last-child{
 }
 
 
+/* Section:9 Subscribe to the news Letter */
+section.subscribe{
+    background: var(--primary);
+}
+section.subscribe .container >div :first-child img{
+    width : 90%
+}
+section.subscribe .container >div :first-child{
+    flex:1;
+}
+section.subscribe .container >div :last-child{
+    flex: 1;
+}
+
+section.subscribe h1{
+    font-family: "railway-bold";
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+section.subscribe p{
+    font-family: "railway-semibold";
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5rem;
+}
+
+section.subscribe .input-wrap{
+    /* width: 140%; */
+    background: var(--heaven);
+    display: flex;
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+section.subscribe .input-wrap input{
+    width: 120%;
+    border: none;
+    padding: 0 1rem;
+    font-size: 1rem;
+    
+}
+section.subscribe .input-wrap input:focus{
+    outline: none;
+}
+
+section.subscribe .input-wrap button{ 
+    padding: 1rem 0.1rem;
+    border: none;
+    background: var(--primary);
+    color: var(--pure);
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+}
+section.subscribe .input-wrap button:hover{
+    background: var(--secondary);
+}
+
+/* section:10 final section for the contact us */
+
+section.contact-us{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+section.contact-us .contact-info{
+    display: flex;
+    justify-content: center;
+    
+}
+section.contact-us .contact-info >div >div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+section.contact-us .contact-info >div >div img{
+    margin-right: 1rem;
+}
+section.contact-us .contact-info >div >div >div{
+    display: flex;
+    flex-direction: column;
+}
+section.contact-us .contact-info >div >div >div span:first-child{
+    font-family: "railway-bold";
+    margin-bottom: 0.25rem;
+
+}
+section.contact-us .contact-info-wrapper{
+    padding: 4rem 0;
+    flex: 1;
+}
+section.contact-us .map{
+    flex: 1;
+    filter: grayscale(80%);
+}
+
+
+/* Section:-11 this is the section for the footer  */
+
+
+
 /* Utility Class for the Website */
 
 .container{
