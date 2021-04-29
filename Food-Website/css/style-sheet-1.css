@@ -29,7 +29,7 @@
 /* variable for the colours in the website */
 
 :root{
-    --primary:#EEBF00;
+    --primary:#f58b34;
     --secondary:#232B38;
     --ternary:#6C6C6C;
     --danger:#FE4545;
@@ -193,6 +193,7 @@ header.hero .welcome{
 }
 header.hero .hero-image{
     position: absolute;
+
     top: -40px;
     right: 40px
 }
@@ -498,8 +499,8 @@ section.big-deal .timer div span:last-child{
 section.subscribe{
     background: var(--primary);
 }
-section.subscribe .container >div :first-child img{
-    width : 90%
+section .subscribe .container >div :first-child img{
+    width : 70%
 }
 section.subscribe .container >div :first-child{
     flex:1;
